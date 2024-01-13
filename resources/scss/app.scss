@@ -15,3 +15,42 @@ header {
         }
     }
 }
+
+.main_index {
+    .image_100vw {
+        // background-color: black;
+        width: 100vw;
+        height: 350px;
+        background-image: url(../images/jumbotron.jpg);
+        background-size: cover;
+    }
+
+    .inner_index {
+        background-color: #1c1c1c;
+        padding: 0 10rem;
+
+        .content-title {
+            span {
+                background-color: #0282f9;
+                padding: 1rem;
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .ms_card {
+            width: calc(100% / 6);
+            padding: 1rem;
+            img {
+                aspect-ratio: 1;
+                width: 100%;
+            }
+
+            span {
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+}
