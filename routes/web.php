@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+$nav_links = config('nav_links');
+return view('home.index', compact('nav_links'));
+})->name('home');
+
+Route::get('/about', function () {
+    $nav_links = config('nav_links');
+    return view('products.about', compact('nav_links'));
+    })->name('about');
+    
+
+

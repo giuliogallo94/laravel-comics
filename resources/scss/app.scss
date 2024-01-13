@@ -3,3 +3,15 @@
 body {
     background-color: lightgreen;
 }
+
+header {
+    .ms_container {
+        background-color: white;
+        padding: 1rem 10rem;
+        .searchbar {
+            width: 50%;
+            border: none;
+            border-bottom: 2px solid #0282f9;
+        }
+    }
+}
