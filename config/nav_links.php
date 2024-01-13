@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "charaters",
+    "characters",
     "comics",
     "movies",
     "tv",

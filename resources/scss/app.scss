@@ -1,9 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: lightgreen;
-}
-
 header {
     .ms_container {
         background-color: white;
@@ -53,4 +49,9 @@ header {
             }
         }
     }
+}
+
+footer {
+    padding: 3rem;
+    background-color: #0282f9;
 }
