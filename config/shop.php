@@ -11,11 +11,11 @@ return [
       ],
       [
         'title'=> "SUBSCRIPTION",
-        'url'=> "buy-comics-shop-locator.png",
+        'url'=> "buy-comics-subscriptions.png",
       ],
       [
         'title'=> "COMIC SHOP LOCATOR",
-        'url'=> "buy-comics-subscriptions.png",
+        'url'=> "buy-comics-shop-locator.png",
       ],
       [
         'title'=> "DC POWER VISA",

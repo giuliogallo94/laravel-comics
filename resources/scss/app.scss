@@ -19,7 +19,6 @@ header {
 
 .main_index {
     .image_100vw {
-        // background-color: black;
         width: 100vw;
         height: 350px;
         background-image: url(../images/jumbotron.jpg);
@@ -66,9 +65,23 @@ header {
             }
         }
     }
+    .shop_section {
+        background-color: #0282f9;
+        padding: 2rem 12rem;
+
+        .buy_img {
+            img {
+                height: 60px;
+            }
+        }
+        .buy_title {
+            color: white;
+            font-size: 15px;
+        }
+    }
 }
 
 footer {
     padding: 3rem;
-    background-color: #0282f9;
+    background-color: green;
 }
