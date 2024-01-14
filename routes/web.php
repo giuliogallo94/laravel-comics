@@ -15,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $nav_links = config('nav_links');
+    $foot_links = config('foot_links');
     $comics = config('comics');
     $shop = config('shop');
-    return view('home.index', compact('nav_links', 'comics', 'shop'));
+    return view('home.index', compact('nav_links', 'foot_links',  'comics', 'shop'));
 })->name('home');
 
 Route::get('/characters', function () {
