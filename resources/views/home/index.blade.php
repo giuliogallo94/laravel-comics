@@ -6,12 +6,12 @@
     <div class="image_100vw"></div>
 
     <div class="inner_index">
-    <div class="content-title">
-        <span>CURRENT SERIES</span>
-    </div>
+        <div class="content-title">
+            <span>CURRENT SERIES</span>
+        </div>
     
 
-        <div class="cards_container d-flex justify-content-between flex-wrap pt-4">
+        <div class="cards_container d-flex justify-content-between align-items-center flex-wrap pt-4">
             @foreach ($comics as $item)
             <div class="ms_card">
                 
@@ -23,8 +23,13 @@
                 
             </div>
             @endforeach
+
+            <div class="load mx-auto">
+                <button>LOAD MORE</button>
+            </div>
         </div>
 
+    </div>
 </div>
 
 @endsection

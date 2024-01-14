@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
     .ms_container {
         background-color: white;
@@ -46,6 +51,18 @@ header {
                 font-size: 15px;
                 font-weight: bold;
                 color: white;
+            }
+        }
+        .load {
+            text-align: center;
+            padding: 2rem;
+
+            button {
+                padding: 0.6rem 3rem;
+                background-color: #0282f9;
+                border: none;
+                color: white;
+                font-weight: bold;
             }
         }
     }
