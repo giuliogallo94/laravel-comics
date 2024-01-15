@@ -1,3 +1,7 @@
+@php
+    $social_media = config('social_media');
+@endphp
+
 <div class="footer_bottom">
     <div class="footer-bottom">
         <div class="inner d-flex justify-content-between align-items-center">

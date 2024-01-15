@@ -1,3 +1,7 @@
+@php
+    $nav_links = config('nav_links');
+@endphp
+
 <header>
     <div class="ms_container d-flex justify-content-between align-items-center">
       <div class="logo">

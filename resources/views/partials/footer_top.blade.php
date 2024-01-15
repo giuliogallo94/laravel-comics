@@ -1,3 +1,7 @@
+@php
+    $foot_links = config('foot_links');
+@endphp
+
 <div class="footer_top d-flex justify-content-between">
     <div class="inner">
       <div class="row">

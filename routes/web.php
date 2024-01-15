@@ -14,62 +14,58 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $nav_links = config('nav_links');
-    $foot_links = config('foot_links');
-    $social_media = config('social_media');
     $comics = config('comics');
     $shop = config('shop');
-    return view('home.index', compact('nav_links', 'foot_links', 'social_media',  'comics', 'shop'));
+    return view('home.index', compact('comics', 'shop'));
 })->name('home');
 
 Route::get('/characters', function () {
-    $nav_links = config('nav_links');
-    return view('products.characters', compact('nav_links'));
+    return view('products.characters',);
 })->name('characters');
 
 Route::get('/comics', function () {
-    $nav_links = config('nav_links');
-    return view('products.comics', compact('nav_links'));
+    
+    return view('products.comics', );
 })->name('comics');
 
 Route::get('/movies', function () {
-    $nav_links = config('nav_links');
-    return view('products.movies', compact('nav_links'));
+    
+    return view('products.movies', );
 })->name('movies');
 
 Route::get('/tv', function () {
-    $nav_links = config('nav_links');
-    return view('products.tv', compact('nav_links'));
+    
+    return view('products.tv', );
 })->name('tv');
 
 Route::get('/games', function () {
-    $nav_links = config('nav_links');
-    return view('products.games', compact('nav_links'));
+    
+    return view('products.games', );
 })->name('games');
 
 Route::get('/collectibles', function () {
-    $nav_links = config('nav_links');
-    return view('products.collectibles', compact('nav_links'));
+    
+    return view('products.collectibles', );
 })->name('collectibles');
 
 Route::get('/videos', function () {
-    $nav_links = config('nav_links');
-    return view('products.videos', compact('nav_links'));
+    
+    return view('products.videos', );
 })->name('videos');
 
 Route::get('/fans', function () {
-    $nav_links = config('nav_links');
-    return view('products.fans', compact('nav_links'));
+    
+    return view('products.fans', );
 })->name('fans');
 
 Route::get('/news', function () {
-    $nav_links = config('nav_links');
-    return view('products.news', compact('nav_links'));
+    
+    return view('products.news', );
 })->name('news');
 
 Route::get('/shop', function () {
-    $nav_links = config('nav_links');
-    return view('products.shop', compact('nav_links'));
+    
+    return view('products.shop', );
 })->name('shop');
 
     
